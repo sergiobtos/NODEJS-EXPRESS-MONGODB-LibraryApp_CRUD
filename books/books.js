@@ -13,7 +13,7 @@ const Book = mongoose.model("Book")
 
 //Connect
 mongoose.connect("mongodb+srv://admin:admin@lab3.uxvq8.mongodb.net/Lab03?authSource=admin&replicaSet=atlas-l7cxlf-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true", () => {
-    console.log("Database is connected!");
+    console.log("Database Books Service is connected!");
 });
 
 app.get('/', (req, res) => {
