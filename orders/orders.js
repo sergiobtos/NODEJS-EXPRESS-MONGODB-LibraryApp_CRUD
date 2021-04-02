@@ -12,7 +12,7 @@ mongoose.connect("mongodb+srv://admin:admin@lab3.uxvq8.mongodb.net/Lab03?authSou
 })
 
 // Model is loaded
-require("./Order")
+require("./order")
 const Order = mongoose.model("Order")
 
 // Will create a new order
